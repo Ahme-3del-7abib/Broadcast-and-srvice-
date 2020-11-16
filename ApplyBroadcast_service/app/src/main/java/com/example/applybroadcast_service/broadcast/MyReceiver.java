@@ -30,7 +30,7 @@ public class MyReceiver extends BroadcastReceiver {
                 .setContentText("Hello world !")
                 .setAutoCancel(true);
 
-        // if canceled
+        
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             NotificationChannel channel = new NotificationChannel("notify_001",
                     "Channel human readable title",
